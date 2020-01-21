@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Schnyder L';
+    font-weight: 100;
+    src: url('../fonts/SchnyderL-Light.woff') format('woff');
+    src: url('../fonts/SchnyderL-Light.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Neue Haas Grotesk';
+    font-weight: 500;
+    src: url('../fonts/NeueHaasDisplay-Roman.woff')
+}
+
+
+$screen_sm: 576px;
+$screen_md: 768px;
+$screen_lg: 992px;
+$screen_xl: 1200px;
+$sans-serif: 'Neue Haas Grotesk', sans-serif;
+$serif: 'Schnyder L', serif;
+$grid-space: 2em;
+
+:root {
+    --light: #FFFFFF;
+    --dark: #111111;
+}
+
+/**
+*
+* THEMES
+*
+*/
+

@@ -1,0 +1,17 @@
+- const names = ["One", "Two", "Three"];
+
+html(lang="en")
+    include includes/head.pug
+        title Folio
+        body(data-scroll-section)
+        
+            include includes/nav.pug
+            main#app
+                canvas
+             
+            div(class="instructions")
+                h1 Instructions.
+                p Press | Hold | Move to interact.
+                p Release to explode.
+
+    script(src="../src/index.js")

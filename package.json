@@ -1,0 +1,29 @@
+{
+  "name": "folio-20",
+  "version": "1.0.0",
+  "description": "Web portfolio of Tobi Balogun",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "parcel watch views/index.pug",
+    "dev": "parcel views/index.pug",
+    "build": "parcel build views/index.pug --public-url ./"
+  },
+  "keywords": [
+    "folio"
+  ],
+  "author": "Tobi Balogun",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "pug": "^2.0.4",
+    "sass": "^1.23.7"
+  },
+  "dependencies": {
+    "gsap": "^3.0.4",
+    "imagesloaded": "^4.1.4",
+    "locomotive-scroll": "^3.2.6",
+    "pixi.js": "^5.2.0",
+    "zdog": "^1.1.1"
+  }
+}
