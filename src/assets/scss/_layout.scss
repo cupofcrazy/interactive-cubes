@@ -17,13 +17,6 @@ body {
     transition: all .5s ease;
 }
 
-body.light {
-    transition: all .5s ease;
-    --dark: #E9E6E3;
-    --light: #111111;
-    
-}
-
 #app {
     width: 100%;
     height: 100%;
